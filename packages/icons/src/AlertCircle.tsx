@@ -4,7 +4,7 @@ interface SVGRProps {
   title?: string;
   titleId?: string;
 }
-const SvgFooCircle = ({
+const SvgAlertCircle = ({
   title,
   titleId,
   ...props
@@ -22,4 +22,4 @@ const SvgFooCircle = ({
     <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18ZM12 16h.01M12 8v4-4Z" />
   </svg>
 );
-export default SvgFooCircle;
+export default SvgAlertCircle;

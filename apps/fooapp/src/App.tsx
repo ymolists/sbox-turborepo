@@ -3,7 +3,9 @@ import { useState } from 'react'
 import './App.css'
 
 import { Button } from "ui"
-import { AlertCircle } from "foolib"
+
+import { FooCircle } from "foolib"
+// import { AlertCircle } from "icons"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +13,7 @@ function App() {
   return (
     <div className="App">
       {/* <Button/> */}
-      <AlertCircle/>
+      <FooCircle/>
     </div>
   )
 }

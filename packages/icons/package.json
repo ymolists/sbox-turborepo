@@ -1,0 +1,12 @@
+{
+  "name": "icons",
+  "main": "./src/index.tsx",
+  "types": "./src/index.tsx",
+  "devDependencies": {
+    "@svgr/cli": "^6.5.1",
+    "eslint": "^8.29.0",
+    "eslint-config-custom": "*",
+    "tsconfig": "*",
+    "typescript": "^4.5.2"
+  }
+}
